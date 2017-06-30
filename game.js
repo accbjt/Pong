@@ -10,7 +10,7 @@ function Game(canvas) {
 	$(canvas).on('keydown keyup', function(e) {
     // Convert key code to key name
     var keyName = Game.keys[e.which]
-
+console.log('stuff')
     if (keyName) {
       // eg.: `self.keyPressed.up = true` on keydown
       // Will be set to `false` on keyup
